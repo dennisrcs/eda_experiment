@@ -1,0 +1,27 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.pb-wrapper h1 {
+	font-size: 72pt;
+	margin: auto;
+	width: 50%;
+}
+
+.pb-wrapper.exhaling {
+	width: 400px;
+	height: 400px;
+	background-color: #7FFFD4;
+	color: #F0F8FF;
+	transition: width 6s, height 6s, background-color 6s;
+}
+
+.pb-wrapper.inhaling {
+	width: 800px;
+	height: 800px;
+	background-color: #006400;
+	color: #F0F8FF;
+	transition: width 4s, height 4s, background-color 4s;
+}
