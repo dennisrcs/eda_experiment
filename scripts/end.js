@@ -16,17 +16,17 @@ $( document ).ready(function(){
 	const cwt2endtime = localStorage.getItem("cwt_4_end_time");
 	
 	var output = "";
-	output += "pb1starttime: " + pb1starttime + "\n";
-	output += "pb1endtime: " + pb1endtime + "\n";
-	output += "pb2starttime: " + pb2starttime + "\n";
-	output += "pb2endtime: " + pb2endtime + "\n";
-	output += "pb3starttime: " + pb3starttime + "\n";
-	output += "pb3endtime: " + pb3endtime + "\n";
+	output += "pb1starttime," + pb1starttime + "\n";
+	output += "pb1endtime," + pb1endtime + "\n";
+	output += "pb2starttime," + pb2starttime + "\n";
+	output += "pb2endtime," + pb2endtime + "\n";
+	output += "pb3starttime," + pb3starttime + "\n";
+	output += "pb3endtime," + pb3endtime + "\n";
 	
-	output += "cwt1starttime: " + cwt1starttime + "\n";
-	output += "cwt1endtime: " + cwt1endtime + "\n";
-	output += "cwt2starttime: " + cwt2starttime + "\n";
-	output += "cwt2endtime: " + cwt2endtime + "\n";
+	output += "cwt1starttime," + cwt1starttime + "\n";
+	output += "cwt1endtime," + cwt1endtime + "\n";
+	output += "cwt2starttime," + cwt2starttime + "\n";
+	output += "cwt2endtime," + cwt2endtime + "\n";
 	
 	const part_id = localStorage.getItem("part_id");
 	
